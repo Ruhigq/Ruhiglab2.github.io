@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Personal Website</title>
+  <style>
+    /* Styling to highlight the current page */
+    .active {
+      font-weight: bold;
+    }
+  </style>
+  <link rel="stylesheet" href="general.css">
+  <link rel="icon" href="pic.png" type="image/x-icon"> 
+</head>
+<body>
+  <!-- Header Menu -->
+  <header>
+    <nav>
+      <img src="pic.png" alt="Website Logo" style="height: 75px; width: 75px;">
+      <a href="home.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html">Contact</a>
+      <a href="signin.html" class="active">Sign in</a>
+      <a href="signup.html">Sign up</a>
+    </nav>
+  </header>
+
+  <!-- Content -->
+<!-- Main Content -->
+<main>
+    <a href="index.html">back to business card </a>
+    <div class="form-container">
+      <h1>Sign In</h1>
+      <form action="/signin" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+  
+        <button type="submit">Sign In</button>
+      </form>
+    </div>
+  </main>
+  
+
+
+  <!-- Footer Menu -->
+  <footer>
+    <nav>
+      <a href="terms.html">Terms and Conditions</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="cookie.html">Cookie Policy</a>
+    </nav>
+  </footer>
+
+</body>
+</html>
